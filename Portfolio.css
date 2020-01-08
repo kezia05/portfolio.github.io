@@ -8,6 +8,15 @@ h1{
     font-weight: 70;
     text-align: center ;
     justify-content: center;
-    padding-top: 1cm;
-    padding-bottom: 2cm;
+    padding-top: 2cm;
+    padding-bottom: 4cm;
+}
+
+.carousel-item{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    padding-left: 14.5cm;
+    padding-bottom: 4cm;
 }
