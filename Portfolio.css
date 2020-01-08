@@ -18,5 +18,12 @@ h1{
     margin: auto;
     justify-content: center;
     padding-left: 14.5cm;
-    padding-bottom: 4cm;
+
+}
+.text{
+    color: #EFF0EB;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 1cm;
+  padding-bottom: 4cm;
 }
