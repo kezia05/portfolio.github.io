@@ -9,13 +9,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="Contact.css">
 
     <script src="https://kit.fontawesome.com/d4ba719b18.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Kezia Cauchi's Portfolio</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="Home.html">
             <i class="fab fa-kickstarter-k"></i>
@@ -49,66 +51,94 @@
         </div>
     </nav>
 
-    <div class="col-md-6 justify-content-right align-items-right pl-0 order-1 order-md-2">
-        <div class="pl-3">
-            <br>
-            <h1> Contact The Artist</h1>
-            </br>
 
+    <div class="row no-gutters">
 
+        <div class="col no-gutters">
+            <div class="leftside">
+                <div class="container">
 
+                    <form action="action_page.php">
 
-            <div class="container">
-                <form action="action_page.php">
+                        <label for="name">Your Name:</label>
+                        <br>
+                        <input type="text" id="name" name="name" placeholder="Kezia Cauchi">
 
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Kezia Cauchi">
+                        <br>
+                        <br>
 
-                    <br>
+                        <label for="email">Your Email:</label>
+                        <br>
+                        <input type="text" id="email" name="email" placeholder="kezia.cauchi.17@um.edu.mt">
 
-                    <label for="email">Your Email:</label>
-                    <input type="text" id="email" name="email" placeholder="kezia.cauchi.17@um.edu.mt">
+                        <br>
+                        <br>
 
-                    <br>
+                        <label for="country">Country:</label>
+                        <br>
+                        <select id="country" name="country">
+                            <option value="malta">Malta</option>
+                            <option value="unitedkingdom">United Kingdom</option>
+                            <option value="usa">USA</option>
+                        </select>
 
-                    <label for="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value="malta">Malta</option>
-                        <option value="unitedkingdom">United Kingdom</option>
-                        <option value="usa">USA</option>
-                    </select>
+                        <br>
+                        <br>
 
-                    <br>
+                        <label for="subject">Subject:</label>
+                        <br>
+                        <input type="text" id="subject" name="subject">
 
-                    <label for="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject">
-
-                    <br>
-
-                    <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" placeholder="Write something.."
-                        style="height:200px"></textarea>
-
-                    <br>
-
-                    <input type="submit" value="Submit">
-                </form>
+                    </form>
+                </div>
             </div>
 
 
 
+        </div>
 
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                crossorigin="anonymous"></script>
+        <div class="col no-gutters">
+            <div class="rightside">
+                <h1> Contact The Artist</h1>
+
+                <br>
+
+                <div class="container-1">
+                    <form action="action_page.php">
+                        <label for="message">Your Message:</label>
+
+                        <br>
+
+                        <textarea id="message" name="message" class="message" placeholder="Write something..."
+                            style="width:530px"></textarea>
+
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
