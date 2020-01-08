@@ -21,7 +21,7 @@ h1{
     font-weight: 100;
     text-align: auto ;
     justify-content: left;
-    padding-top: 5cm;
+    padding-top: 3cm;
     padding-left: 6%;
 }
 .container{
@@ -42,5 +42,5 @@ h1{
     padding-left: 6%;
 }
 .message{
-    height:150px;
+    height:250px;
 }
