@@ -20,11 +20,11 @@ h1{
     color:  #00a099;
     font-size: 4em;
     font-weight: 100;
-    text-align: auto ;
-    justify-content: auto;
+    text-align: center ;
+    justify-content: center;
     padding-top: 5cm;
-    padding-left: 20%;
 }
+
 .container{
     padding-top: 2cm; 
     padding-left: 30%;
