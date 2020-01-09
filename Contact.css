@@ -17,21 +17,21 @@ body{
 }
 
 h1{
-    color:  #eacb48;
+    color:  #00a099;
     font-size: 4em;
     font-weight: 100;
     text-align: auto ;
     justify-content: left;
-    padding-top: 3cm;
-    padding-left: 6%;
+    padding-top: 5cm;
+    padding-left: 20%;
 }
 .container{
-    padding-top: 7cm; 
+    padding-top: 2cm; 
     padding-left: 30%;
     font-size: 1em;
     text-align: auto ;
     justify-content: left;
-    color:  #484E4A;
+    color:  #00a099;
 }
 
 .container-1{
@@ -39,9 +39,10 @@ h1{
     font-size: 1em;
     text-align: auto ;
     justify-content: left;
-    padding-top: 1cm;
+    padding-top: 9.8cm;
     padding-left: 6%;
+    color: #eacb48 ;
 }
 .message{
-    height:250px;
+    height:100px;
 }
