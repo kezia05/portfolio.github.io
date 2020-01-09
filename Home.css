@@ -22,32 +22,36 @@ h1{
     color: #484E4A;
     font-size: 9vw;
     font-weight: 100;
-    text-align: auto ;
+    text-align: left ;
     justify-content: left;
     padding-top: 5cm;
 }
 
 .socialmedia {
     margin-top: 30%;
-    margin-left: -4%;
-    text-align: auto;
+    margin-left: -15%;
+    text-align: left;
+    justify-content: left;
   }
   
   .socialmedia ul {
-    font-size: 3em;
+    font-size: 3vmax;
     list-style-type: none;
-    text-align: auto;
+    text-align: left;
+    justify-content: left;
   }
   
   .socialmedia li {
     color: #484E4A;
     display: inline;
     padding: 1%;
-    text-align : auto;
+    text-align : left;
+    justify-content: left;
   }
   
   .socialmedia li a {
     color: #484E4A;
     text-decoration: none;
-    text-align: auto;
+    text-align: left;
+    justify-content: left;
   }
