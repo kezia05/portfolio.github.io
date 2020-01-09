@@ -12,18 +12,17 @@ h1{
     padding-bottom: 4cm;
 }
 
-.carousel-item{
-    width: 100%;
+.img-fluid{
+    max-width: 100%;
     height: auto;
     margin: auto;
     justify-content: center;
-    padding-left: 14.5cm;
-
+    align-content: center;
 }
 .text{
     color: #EFF0EB;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 1cm;
-  padding-bottom: 4cm;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 4cm;
 }
