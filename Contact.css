@@ -28,9 +28,6 @@ h1{
 .container{
     padding-top: 2cm; 
     padding-left: 30%;
-    font-size: 1em;
-    text-align: auto ;
-    justify-content: auto;
     color:  #00a099;
 }
 
@@ -38,8 +35,6 @@ h1{
     padding-top: 9.8cm;
     padding-left: 30%;
     font-size: 1em;
-    text-align: auto ;
-    justify-content: auto;
     color: #eacb48 ;
 }
 .message{
