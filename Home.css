@@ -20,16 +20,15 @@ body{
 
 h1{
     color: #484E4A;
-    font-size: 6vw;
+    font-size: 9vw;
     font-weight: 100;
     text-align: auto ;
     justify-content: left;
-    padding-top: 7cm;
+    padding-top: 5cm;
 }
 
-
 .socialmedia {
-    margin-top: 20%;
+    margin-top: 30%;
     margin-left: -4%;
     text-align: auto;
   }
