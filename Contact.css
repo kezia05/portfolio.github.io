@@ -13,11 +13,11 @@ body{
 }
 
 .rightside{
-    background: #00a099 ;
+    background: #82ADDC ;
 }
 
 h1{
-    color:  #00a099;
+    color:  #82ADDC;
     font-size: 4em;
     font-weight: 100;
     text-align: center ;
@@ -28,7 +28,7 @@ h1{
 .container{
     padding-top: 2cm; 
     padding-left: 30%;
-    color:  #00a099;
+    color:  #82ADDC;
 }
 
 .container-1{
